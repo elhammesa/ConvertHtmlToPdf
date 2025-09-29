@@ -1,0 +1,172 @@
+﻿@page "/PdfWiewer"
+@using BlazorAppHtmlToPdf.Components.Services
+@using BlazorAppHtmlToPdf.Components.Model
+@inject IPdfService PdfService
+@inject IJSRuntime JSRuntime
+@implements IDisposable
+
+<PageTitle>تولید و دانلود PDF</PageTitle>
+
+<h3>تولید و دانلود PDF</h3>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger">
+        @errorMessage
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(successMessage))
+{
+    <div class="alert alert-success">
+        @successMessage
+    </div>
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5>اطلاعات پیام</h5>
+            </div>
+            <div class="card-body">
+                <EditForm Model="@MessageModel" OnValidSubmit="GeneratePdf" FormName="HtmlToPdfForm">
+                    <DataAnnotationsValidator />
+
+                    <div class="form-group mb-3">
+                        <label>شناسه پیام:</label>
+                        <InputNumber @bind-Value="MessageModel.MessageId" class="form-control" />
+                        <ValidationMessage For="@(() => MessageModel.MessageId)" />
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label>متن پیام:</label>
+                        <InputText @bind-Value="MessageModel.Content" class="form-control" />
+                        <ValidationMessage For="@(() => MessageModel.Content)" />
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100" disabled="@isGenerating">
+                        @if (isGenerating)
+                        {
+                            <span>
+                                <span class="spinner-border spinner-border-sm" role="status"></span>
+                                در حال تولید و دانلود...
+                            </span>
+                        }
+                        else
+                        {
+                            <span>تولید و دانلود PDF</span>
+                        }
+                    </button>
+                </EditForm>
+            </div>
+        </div>
+
+        @if (isGenerating)
+        {
+            <div class="card mt-3">
+                <div class="card-body text-center">
+                    <div class="spinner-border text-primary mb-2"></div>
+                    <p class="text-muted mb-0">در حال تولید و دانلود PDF...</p>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    private Message MessageModel = new();
+    private string pdfBase64 = string.Empty;
+    private string errorMessage = string.Empty;
+    private string successMessage = string.Empty;
+    private bool isGenerating = false;
+    private bool shouldDownload = false;
+    private string? fileName;
+    private CancellationTokenSource? _cancellationTokenSource;
+
+    protected override void OnInitialized()
+    {
+        MessageModel = new Message
+            {
+                MessageId = 1,
+                Content = "salam b hamegi",
+            };
+        _cancellationTokenSource = new CancellationTokenSource();
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (shouldDownload && !string.IsNullOrEmpty(pdfBase64))
+        {
+            shouldDownload = false; // اول فلگ را غیرفعال کن
+            await TriggerAutoDownload();
+        }
+    }
+
+    private async Task GeneratePdf()
+    {
+        if (_cancellationTokenSource?.IsCancellationRequested == true)
+            return;
+
+        isGenerating = true;
+        errorMessage = string.Empty;
+        successMessage = string.Empty;
+        shouldDownload = false;
+        StateHasChanged();
+
+        try
+        {
+            // تولید PDF
+            pdfBase64 = await PdfService.GeneratePdfBase64Async(MessageModel);
+            fileName = $"message-{MessageModel.MessageId}-{DateTime.Now:yyyyMMddHHmmss}.pdf";
+
+            // تنظیم flag برای دانلود
+            shouldDownload = true;
+
+            successMessage = "PDF با موفقیت تولید شد! دانلود به زودی شروع می‌شود...";
+            StateHasChanged(); // فقط یکبار render کن
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"خطا در تولید PDF: {ex.Message}";
+            StateHasChanged();
+        }
+        finally
+        {
+            isGenerating = false;
+            // اینجا StateHasChanged() را حذف کردیم
+        }
+    }
+
+    private async Task TriggerAutoDownload()
+    {
+        if (string.IsNullOrEmpty(pdfBase64) || string.IsNullOrEmpty(fileName)) return;
+
+        try
+        {
+            await JSRuntime.InvokeVoidAsync("eval",
+                    $@"(function() {{
+                    var link = document.createElement('a');
+                    link.href = 'data:application/pdf;base64,{pdfBase64}';
+                    link.download = '{fileName}';
+                    link.style.display = 'none';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                }})()");
+
+            // بدون StateHasChanged()
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"خطا در دانلود: {ex.Message}";
+            StateHasChanged();
+        }
+    }
+
+    public void Dispose()
+    {
+        _cancellationTokenSource?.Cancel();
+        _cancellationTokenSource?.Dispose();
+    }
+}
