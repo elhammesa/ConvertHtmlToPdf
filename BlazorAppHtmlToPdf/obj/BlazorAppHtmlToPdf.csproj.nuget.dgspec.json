@@ -28,7 +28,8 @@
           "D:\\Mesbah analyzer\\analyzer.constants\\AnalyzerConstantsPackages": {},
           "D:\\Mesbah analyzer\\analyzer.framework\\AnalyzerFrameworkPackages": {},
           "D:\\Mesbah analyzer\\analyzer.social\\AnalyzerSocialPackages": {},
-          "http://172.30.30.95:8081/repository/AnalyzerNugetServer/": {}
+          "http://172.30.30.95:8081/repository/AnalyzerNugetServer/": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -51,6 +52,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.105.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
