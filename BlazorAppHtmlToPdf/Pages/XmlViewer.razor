@@ -1,0 +1,105 @@
+﻿@page "/XmlViewer"
+@using BlazorAppHtmlToPdf.Components.Services
+@using BlazorAppHtmlToPdf.Components.Model
+@using BlazorAppHtmlToPdf.Services
+@inject IExcelService ExcelService
+@inject IJSRuntime JSRuntime
+
+<PageTitle>خروجی Excel</PageTitle>
+
+<h3>تولید و دانلود فایل Excel</h3>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h5>داده‌های نمونه</h5>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>MessageId</th>
+                            <th>Content</th>
+                            <th>CreatedDate</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var message in MessageModel)
+                        {
+                            <tr>
+                                <td>@message.MessageId</td>
+                                <td>@message.Content</td>
+                            
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+                <button class="btn btn-success" @onclick="GenerateExcel" disabled="@isGenerating">
+                    @if (isGenerating)
+                    {
+                        <span>
+                            <span class="spinner-border spinner-border-sm"></span>
+                            در حال تولید Excel...
+                        </span>
+                    }
+                    else
+                    {
+                        <span>
+                            <i class="bi bi-file-earmark-excel"></i> دانلود Excel
+                        </span>
+                    }
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<Message> MessageModel = new List<Message>
+    {
+        new Message { MessageId = 1, Content = "salam b hamegi" },
+        new Message { MessageId = 2, Content = "salam" },
+        new Message { MessageId = 3, Content = "سلام به همه" }
+    };
+
+    private bool isGenerating = false;
+
+    private async Task GenerateExcel()
+    {
+        isGenerating = true;
+        StateHasChanged();
+
+        try
+        {
+            var excelBase64 = await ExcelService.GenerateExcelBase64Async(MessageModel);
+            var fileName = $"messages-{DateTime.Now:yyyyMMddHHmmss}.xlsx";
+
+            await DownloadFile(excelBase64, fileName, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error generating Excel: {ex.Message}");
+        }
+        finally
+        {
+            isGenerating = false;
+            StateHasChanged();
+        }
+    }
+
+    private async Task DownloadFile(string base64Data, string fileName, string contentType)
+    {
+        await JSRuntime.InvokeVoidAsync("eval",
+                $@"(function() {{
+                var link = document.createElement('a');
+                link.href = 'data:{contentType};base64,{base64Data}';
+                link.download = '{fileName}';
+                link.style.display = 'none';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }})()");
+    }
+}

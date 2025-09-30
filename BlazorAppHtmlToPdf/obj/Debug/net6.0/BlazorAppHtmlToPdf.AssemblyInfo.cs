@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorAppHtmlToPdf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a19434f0ec06de14f52a03ccf691bd344e841ac6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3086219c1f4d216541bf61fb561b9ed1c2426d6c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorAppHtmlToPdf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorAppHtmlToPdf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

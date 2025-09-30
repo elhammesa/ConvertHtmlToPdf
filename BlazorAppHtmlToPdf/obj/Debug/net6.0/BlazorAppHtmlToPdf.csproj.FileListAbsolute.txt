@@ -34,3 +34,13 @@ C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\obj\Debug\net6.0\
 C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\obj\Debug\net6.0\BlazorAppHtmlToPdf.genruntimeconfig.cache
 C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\obj\Debug\net6.0\ref\BlazorAppHtmlToPdf.dll
 C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\obj\Debug\net6.0\BlazorAppHtmlToPdf.sourcelink.json
+C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\bin\Debug\net6.0\ClosedXML.dll
+C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\bin\Debug\net6.0\ClosedXML.Parser.dll
+C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\bin\Debug\net6.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\bin\Debug\net6.0\ExcelNumberFormat.dll
+C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\bin\Debug\net6.0\RBush.dll
+C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\bin\Debug\net6.0\SixLabors.Fonts.dll
+C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\obj\Debug\net6.0\BlazorAppHtmlToPdf.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\obj\Debug\net6.0\BlazorAp.7F88B333.Up2Date

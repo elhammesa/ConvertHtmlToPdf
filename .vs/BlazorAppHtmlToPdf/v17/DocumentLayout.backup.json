@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|c:\\users\\pc\\source\\repos\\blazorapphtmltopdf\\blazorapphtmltopdf\\services\\pdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|solutionrelative:blazorapphtmltopdf\\services\\pdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|c:\\users\\pc\\source\\repos\\blazorapphtmltopdf\\blazorapphtmltopdf\\services\\excelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|solutionrelative:blazorapphtmltopdf\\services\\excelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|c:\\users\\pc\\source\\repos\\blazorapphtmltopdf\\blazorapphtmltopdf\\pages\\pdfwiewer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|solutionrelative:blazorapphtmltopdf\\pages\\pdfwiewer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|c:\\users\\pc\\source\\repos\\blazorapphtmltopdf\\blazorapphtmltopdf\\pages\\xmlviewer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|solutionrelative:blazorapphtmltopdf\\pages\\xmlviewer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|c:\\users\\pc\\source\\repos\\blazorapphtmltopdf\\blazorapphtmltopdf\\model\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|solutionrelative:blazorapphtmltopdf\\model\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|c:\\users\\pc\\source\\repos\\blazorapphtmltopdf\\blazorapphtmltopdf\\pages\\pdfviewer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|solutionrelative:blazorapphtmltopdf\\pages\\pdfviewer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|c:\\users\\pc\\source\\repos\\blazorapphtmltopdf\\blazorapphtmltopdf\\wwwroot\\templates\\tabletemplate.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|solutionrelative:blazorapphtmltopdf\\wwwroot\\templates\\tabletemplate.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|c:\\users\\pc\\source\\repos\\blazorapphtmltopdf\\blazorapphtmltopdf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|solutionrelative:blazorapphtmltopdf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|c:\\users\\pc\\source\\repos\\blazorapphtmltopdf\\blazorapphtmltopdf\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|solutionrelative:blazorapphtmltopdf\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|c:\\users\\pc\\source\\repos\\blazorapphtmltopdf\\blazorapphtmltopdf\\services\\iexcelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED2B066A-4464-4036-9946-9BDD1127338E}|BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf.csproj|solutionrelative:blazorapphtmltopdf\\services\\iexcelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,64 +39,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Message.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\Model\\Message.cs",
-              "RelativeDocumentMoniker": "BlazorAppHtmlToPdf\\Model\\Message.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\Model\\Message.cs",
-              "RelativeToolTip": "BlazorAppHtmlToPdf\\Model\\Message.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T13:43:43.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TableTemplate.html",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\wwwroot\\Templates\\TableTemplate.html",
-              "RelativeDocumentMoniker": "BlazorAppHtmlToPdf\\wwwroot\\Templates\\TableTemplate.html",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\wwwroot\\Templates\\TableTemplate.html",
-              "RelativeToolTip": "BlazorAppHtmlToPdf\\wwwroot\\Templates\\TableTemplate.html",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAqwFMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-09-29T13:28:59.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\Shared\\NavMenu.razor",
-              "RelativeDocumentMoniker": "BlazorAppHtmlToPdf\\Shared\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\Shared\\NavMenu.razor",
-              "RelativeToolTip": "BlazorAppHtmlToPdf\\Shared\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Title": "PdfViewer.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\Pages\\PdfViewer.razor",
+              "RelativeDocumentMoniker": "BlazorAppHtmlToPdf\\Pages\\PdfViewer.razor",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\Pages\\PdfViewer.razor",
+              "RelativeToolTip": "BlazorAppHtmlToPdf\\Pages\\PdfViewer.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-29T11:44:54.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PdfService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\Services\\PdfService.cs",
-              "RelativeDocumentMoniker": "BlazorAppHtmlToPdf\\Services\\PdfService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\Services\\PdfService.cs*",
-              "RelativeToolTip": "BlazorAppHtmlToPdf\\Services\\PdfService.cs*",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAowIcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T11:11:39.315Z",
+              "WhenOpened": "2025-09-30T05:45:57.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PdfWiewer.razor",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\Pages\\PdfWiewer.razor",
-              "RelativeDocumentMoniker": "BlazorAppHtmlToPdf\\Pages\\PdfWiewer.razor",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\Pages\\PdfWiewer.razor",
-              "RelativeToolTip": "BlazorAppHtmlToPdf\\Pages\\PdfWiewer.razor",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAK4AAAABAAAAAAAAAA==",
+              "Title": "XmlViewer.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\Pages\\XmlViewer.razor",
+              "RelativeDocumentMoniker": "BlazorAppHtmlToPdf\\Pages\\XmlViewer.razor",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\Pages\\XmlViewer.razor",
+              "RelativeToolTip": "BlazorAppHtmlToPdf\\Pages\\XmlViewer.razor",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-29T07:17:30.608Z",
+              "WhenOpened": "2025-09-30T05:42:38.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorAppHtmlToPdf\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\Program.cs",
+              "RelativeToolTip": "BlazorAppHtmlToPdf\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T05:41:50.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExcelService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\Services\\ExcelService.cs",
+              "RelativeDocumentMoniker": "BlazorAppHtmlToPdf\\Services\\ExcelService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\Services\\ExcelService.cs*",
+              "RelativeToolTip": "BlazorAppHtmlToPdf\\Services\\ExcelService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T05:39:28.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IExcelService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\Services\\IExcelService.cs",
+              "RelativeDocumentMoniker": "BlazorAppHtmlToPdf\\Services\\IExcelService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\Services\\IExcelService.cs",
+              "RelativeToolTip": "BlazorAppHtmlToPdf\\Services\\IExcelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T05:39:15.476Z",
               "EditorCaption": ""
             }
           ]

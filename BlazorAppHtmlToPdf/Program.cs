@@ -1,5 +1,6 @@
 using BlazorAppHtmlToPdf.Components.Services;
 using BlazorAppHtmlToPdf.Data;
+using BlazorAppHtmlToPdf.Services;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 
@@ -10,6 +11,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddScoped<IPdfService, PdfService>();
+builder.Services.AddScoped<IExcelService, ExcelService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
