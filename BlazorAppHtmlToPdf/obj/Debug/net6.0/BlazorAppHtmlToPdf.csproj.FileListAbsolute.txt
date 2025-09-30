@@ -33,3 +33,4 @@ C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\obj\Debug\net6.0\
 C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\obj\Debug\net6.0\BlazorAppHtmlToPdf.pdb
 C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\obj\Debug\net6.0\BlazorAppHtmlToPdf.genruntimeconfig.cache
 C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\obj\Debug\net6.0\ref\BlazorAppHtmlToPdf.dll
+C:\Users\PC\source\repos\BlazorAppHtmlToPdf\BlazorAppHtmlToPdf\obj\Debug\net6.0\BlazorAppHtmlToPdf.sourcelink.json

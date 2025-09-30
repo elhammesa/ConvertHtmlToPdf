@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yACV5EhQbXlvs3DN1S+3JPGy4vDo1n/BQ6NwrouhWRs=",
+  "Hash": "q9b5zHUL+krmUGrTTkkkx1I+n/6uxqtm0M2OmEXOjSM=",
   "Source": "BlazorAppHtmlToPdf",
   "BasePath": "_content/BlazorAppHtmlToPdf",
   "Mode": "Default",
@@ -346,8 +346,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "v9t6be5wsv",
-      "Integrity": "TfMAMpMPZH/qhIYmpNPY3cOZMjMdkq97ThiTrMrPVkM=",
+      "Fingerprint": "4iqbw4lpab",
+      "Integrity": "FGUSvjlRf5Kvmiwk/hPg9T73hVNBrwn2ngQqoJAIpno=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Templates\\TableTemplate.html"
@@ -1585,6 +1585,51 @@
       ]
     },
     {
+      "Route": "Templates/TableTemplate.4iqbw4lpab.html",
+      "AssetFile": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\wwwroot\\Templates\\TableTemplate.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FGUSvjlRf5Kvmiwk/hPg9T73hVNBrwn2ngQqoJAIpno=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 13:29:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4iqbw4lpab"
+        },
+        {
+          "Name": "label",
+          "Value": "Templates/TableTemplate.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FGUSvjlRf5Kvmiwk/hPg9T73hVNBrwn2ngQqoJAIpno="
+        }
+      ]
+    },
+    {
       "Route": "Templates/TableTemplate.html",
       "AssetFile": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\wwwroot\\Templates\\TableTemplate.html",
       "Selectors": [],
@@ -1595,7 +1640,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2861"
+          "Value": "2410"
         },
         {
           "Name": "Content-Type",
@@ -1603,11 +1648,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TfMAMpMPZH/qhIYmpNPY3cOZMjMdkq97ThiTrMrPVkM=\""
+          "Value": "\"FGUSvjlRf5Kvmiwk/hPg9T73hVNBrwn2ngQqoJAIpno=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 29 Sep 2025 08:51:27 GMT"
+          "Value": "Mon, 29 Sep 2025 13:29:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1617,52 +1662,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TfMAMpMPZH/qhIYmpNPY3cOZMjMdkq97ThiTrMrPVkM="
-        }
-      ]
-    },
-    {
-      "Route": "Templates/TableTemplate.v9t6be5wsv.html",
-      "AssetFile": "C:\\Users\\PC\\source\\repos\\BlazorAppHtmlToPdf\\BlazorAppHtmlToPdf\\wwwroot\\Templates\\TableTemplate.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2861"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TfMAMpMPZH/qhIYmpNPY3cOZMjMdkq97ThiTrMrPVkM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 29 Sep 2025 08:51:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v9t6be5wsv"
-        },
-        {
-          "Name": "label",
-          "Value": "Templates/TableTemplate.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-TfMAMpMPZH/qhIYmpNPY3cOZMjMdkq97ThiTrMrPVkM="
+          "Value": "sha256-FGUSvjlRf5Kvmiwk/hPg9T73hVNBrwn2ngQqoJAIpno="
         }
       ]
     }

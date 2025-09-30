@@ -1,6 +1,8 @@
-﻿using System.Diagnostics;
+﻿using System.Collections;
+using System.Diagnostics;
 using System.Reflection;
 using System.Text;
+using BlazorAppHtmlToPdf.Components.Model;
 
 namespace BlazorAppHtmlToPdf.Components.Services
 {
@@ -91,46 +93,157 @@ namespace BlazorAppHtmlToPdf.Components.Services
 
         private string FillTemplate<T>(string template, T model)
         {
-    
-            var modelType = typeof(T);
-            var properties = modelType.GetProperties();
 
+            var properties = GetObjectProperties(model);
             var filledTemplate = template;
 
             // جایگزینی متغیرهای اصلی
-            filledTemplate = filledTemplate.Replace("{{ModelType}}", modelType.Name);
+            filledTemplate = filledTemplate.Replace("{{ModelType}}", "گزارش اطلاعات");
             filledTemplate = filledTemplate.Replace("{{CurrentDate}}", DateTime.Now.ToString("yyyy/MM/dd"));
             filledTemplate = filledTemplate.Replace("{{CurrentTime}}", DateTime.Now.ToString("HH:mm"));
 
-        
-            string propertiesContent=string.Empty;
+            // تولید header row (property names)
+            var headerRow = GenerateHeaderRow(properties);
+            filledTemplate = filledTemplate.Replace("{{HeaderRow}}", headerRow);
 
-
-            // تولید محتوای properties به صورت table rows
-            propertiesContent = GenerateTableRows(properties, model);
-            filledTemplate = filledTemplate.Replace("{{Properties}}", propertiesContent);
+            // تولید data rows (property values)
+            var dataRows = GenerateDataRows(properties, model);
+            filledTemplate = filledTemplate.Replace("{{DataRows}}", dataRows);
 
             return filledTemplate;
         }
-        private string GenerateTableRows(PropertyInfo[] properties, object model)
+        private string GenerateHeaderRow(List<string> properties)
         {
             var sb = new StringBuilder();
 
             foreach (var property in properties)
             {
-                var value = property.GetValue(model)?.ToString() ?? "-";
-              
-                sb.AppendLine($@"
-                <tr>
-                    <td class='property-name'><strong>{property.Name}</strong></td>
-                    <td class='property-value'>{value}</td>
-                </tr>");
+            
+                sb.AppendLine($"<th>{property}</th>");
             }
 
             return sb.ToString();
         }
+        private List<string> GetObjectProperties<T>(T model)
+        {
+            if (model == null)
+                return new List<string>();
 
+            var type = model.GetType();
+            var properties = new List<string>();
+
+            // بررسی آیا مدل یک لیست/آرایه است
+            if (typeof(IEnumerable).IsAssignableFrom(type) && type != typeof(string))
+            {
+                // اگر لیست خالی است، propertyهای پیش‌فرض برگردان
+                var enumerable = model as IEnumerable;
+                if (enumerable != null)
+                {
+                    var firstItem = enumerable.Cast<object>().FirstOrDefault();
+                    if (firstItem != null)
+                    {
+                        // propertyهای اولین آیتم در لیست را بگیر
+                        var itemType = firstItem.GetType();
+                        properties = itemType.GetProperties()
+                                           .Where(p => p.CanRead && p.GetIndexParameters().Length == 0)
+                                           .Select(p => p.Name)
+                                           .ToList();
+                    }
+                    else
+                    {
+                        // اگر لیست خالی است، propertyهای پیش‌فرض Message را برگردان
+                        properties = typeof(Message).GetProperties()
+                                                  .Where(p => p.CanRead && p.GetIndexParameters().Length == 0)
+                                                  .Select(p => p.Name)
+                                                  .ToList();
+                    }
+                }
+            }
+            // برای anonymous types و dynamic objects
+            else if (type.Name.Contains("AnonymousType") || type.Name.StartsWith("<>f__AnonymousType"))
+            {
+                properties = type.GetProperties()
+                               .Where(p => p.CanRead)
+                               .Select(p => p.Name)
+                               .ToList();
+            }
+            // برای کلاس‌های معمولی
+            else if (type.IsClass && type != typeof(string))
+            {
+                properties = type.GetProperties()
+                               .Where(p => p.CanRead && p.GetIndexParameters().Length == 0)
+                               .Select(p => p.Name)
+                               .ToList();
+            }
+            // برای انواع ساده
+            else
+            {
+                properties.Add("Value");
+            }
+
+            return properties;
+        }
+        private string GenerateDataRows(List<string> properties, object model)
+        {
+            var sb = new StringBuilder();
+
+            // اگر model یک لیست است
+            if (model is System.Collections.IEnumerable enumerable && model.GetType() != typeof(string))
+            {
+                foreach (var item in enumerable)
+                {
+                    sb.AppendLine("<tr>");
+                    foreach (var property in properties)
+                    {
+                        var value = GetPropertyValue(item, property)?.ToString() ?? "-";
+                        sb.AppendLine($"<td>{value}</td>");
+                    }
+                    sb.AppendLine("</tr>");
+                }
+            }
+            else
+            {
+                // برای یک object تک
+                sb.AppendLine("<tr>");
+                foreach (var property in properties)
+                {
+                    var value = GetPropertyValue(model, property)?.ToString() ?? "-";
+                    sb.AppendLine($"<td>{value}</td>");
+                }
+                sb.AppendLine("</tr>");
+            }
+
+            return sb.ToString();
+        }
     
+        private object GetPropertyValue<T>(T model, string propertyName)
+        {
+            if (model == null)
+                return null;
+
+            var type = model.GetType();
+
+            // اگر propertyName برابر "Value" باشد و نوع ساده باشد
+            if (propertyName == "Value" && (type.IsValueType || type == typeof(string)))
+            {
+                return model;
+            }
+
+            try
+            {
+                var property = type.GetProperty(propertyName);
+                if (property != null && property.CanRead)
+                {
+                    return property.GetValue(model);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error getting property value for {propertyName}: {ex.Message}");
+            }
+
+            return null;
+        }
 
         private async Task<byte[]> GeneratePdfFromHtmlAsync(string htmlContent)
         {

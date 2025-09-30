@@ -264,8 +264,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>v9t6be5wsv</Fingerprint>
-      <Integrity>TfMAMpMPZH/qhIYmpNPY3cOZMjMdkq97ThiTrMrPVkM=</Integrity>
+      <Fingerprint>4iqbw4lpab</Fingerprint>
+      <Integrity>FGUSvjlRf5Kvmiwk/hPg9T73hVNBrwn2ngQqoJAIpno=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Templates\TableTemplate.html'))</OriginalItemSpec>
