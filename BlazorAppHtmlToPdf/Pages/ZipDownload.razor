@@ -1,0 +1,83 @@
+﻿@page "/ZipDownload"
+@using BlazorAppHtmlToPdf.Services
+@inject IZipFile zipFile
+@inject IJSRuntime JSRuntime
+
+
+
+<button class="btn btn-primary w-100" @onclick="GenerateZip"> downloadzip</button>
+
+@code{
+   
+
+    private async Task GenerateZip()
+    {
+
+        StateHasChanged();
+
+        try
+        {
+            const string fileName = "export1";
+            // ارسال لیست به سرویس PDF
+            var path = await zipFile.CreateZipFileAsync(fileName);
+            DownloadZipFile(fileName);
+            await JSRuntime.InvokeVoidAsync("alert", "succesfuly done");
+
+            StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex);
+            StateHasChanged();
+        }
+        finally
+        {
+       
+        }
+    }
+    private async Task DownloadZipFile(string fileName)
+    {
+        try
+        {
+            if (string.IsNullOrEmpty(fileName))
+                fileName = $"export_{DateTime.Now:yyyyMMdd_HHmmss}.zip";
+
+            var url = "https://localhost:7141/ExportFile/" + fileName + ".zip";
+
+            await JSRuntime.InvokeVoidAsync("eval",
+                    $@"(async function() {{
+                try {{
+                    const response = await fetch('{url}');
+                    if (!response.ok) {{
+                        throw new Error('Network response was not ok');
+                    }}
+
+                    const blob = await response.blob();
+                    const blobUrl = URL.createObjectURL(blob);
+                  
+                    const a = document.createElement('a');
+                    a.href = blobUrl;
+                    a.download = '{fileName}';
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+
+                    URL.revokeObjectURL(blobUrl);
+                    console.log('File downloaded successfully: {fileName}');
+                }} catch (error) {{
+                    console.error('Download error:', error);
+                    alert('خطا در دانلود فایل: ' + error.message);
+                }}
+            }})()");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Download error: {ex.Message}");
+        }
+    }
+
+    
+
+  
+}
+}

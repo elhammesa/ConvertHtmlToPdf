@@ -1,0 +1,2906 @@
+{
+  "Version": 1,
+  "Hash": "3n5u+stjK39J5wFuCz8EFSxsyrn3Dvk3jkDAzMbqIPw=",
+  "Source": "BlazorAppHtmlToPdf",
+  "BasePath": "_content/BlazorAppHtmlToPdf",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BlazorAppHtmlToPdf\\wwwroot",
+      "Source": "BlazorAppHtmlToPdf",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorAppHtmlToPdf.styles.css",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "BlazorAppHtmlToPdf#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "lsv526ycda",
+      "Integrity": "y5X4JBLlPSiyn7cq0Jqw9h+WDH835EcHaSswT00g2mA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorAppHtmlToPdf.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorAppHtmlToPdf.bundle.scp.css",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "BlazorAppHtmlToPdf#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "lsv526ycda",
+      "Integrity": "y5X4JBLlPSiyn7cq0Jqw9h+WDH835EcHaSswT00g2mA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorAppHtmlToPdf.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cmapd0fi15",
+      "Integrity": "BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.eot",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0uw8dim9nl",
+      "Integrity": "OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wk8x8xm0ah",
+      "Integrity": "sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "10uzszoped",
+      "Integrity": "oUpLdS+SoLJFwf4bzA3iKD7TCm66oLkTpAQlVJ2s1wc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ll5grcv8wv",
+      "Integrity": "p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h4d0pazwgy",
+      "Integrity": "cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "css/open-iconic/FONT-LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z189sdz1gv",
+      "Integrity": "+Q44zfEaCMmXduni5Td+IgCbk8sSUQwES2nWs+KKQz0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "css/open-iconic/ICON-LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3cg08az021",
+      "Integrity": "s/Is6Ey6jfNAEfXUIOyHrXXX+RcA8hzchYnuOIWUMl4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\README.md",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "css/open-iconic/README#[.{fingerprint}]?.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "prgg6f6j8q",
+      "Integrity": "5ToOztcPXlExcj3+/PDkGs4F2+hgzAik0DU7AxPp2tc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\site.css",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "egr5o4t57u",
+      "Integrity": "PtJQgugrqrV/b3vt9HHMH7NwcUYIip7zUqQIVdIIyvE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\3_khoshehaie_kandom_78463 - Copy (2).mp3",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "ExportFile/export1/3_khoshehaie_kandom_78463 - Copy (2)#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1emih43q4r",
+      "Integrity": "2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ExportFile\\export1\\3_khoshehaie_kandom_78463 - Copy (2).mp3"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\3_khoshehaie_kandom_78463 - Copy (3).mp3",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "ExportFile/export1/3_khoshehaie_kandom_78463 - Copy (3)#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1emih43q4r",
+      "Integrity": "2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ExportFile\\export1\\3_khoshehaie_kandom_78463 - Copy (3).mp3"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\3_khoshehaie_kandom_78463 - Copy.mp3",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "ExportFile/export1/3_khoshehaie_kandom_78463 - Copy#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1emih43q4r",
+      "Integrity": "2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ExportFile\\export1\\3_khoshehaie_kandom_78463 - Copy.mp3"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\3_khoshehaie_kandom_78463.mp3",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "ExportFile/export1/3_khoshehaie_kandom_78463#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1emih43q4r",
+      "Integrity": "2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ExportFile\\export1\\3_khoshehaie_kandom_78463.mp3"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\50381415-a4a4-4775-b27a-a7acd8916488 - Copy (2).jpg",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "ExportFile/export1/50381415-a4a4-4775-b27a-a7acd8916488 - Copy (2)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "swo8619cks",
+      "Integrity": "5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ExportFile\\export1\\50381415-a4a4-4775-b27a-a7acd8916488 - Copy (2).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\50381415-a4a4-4775-b27a-a7acd8916488 - Copy (3).jpg",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "ExportFile/export1/50381415-a4a4-4775-b27a-a7acd8916488 - Copy (3)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "swo8619cks",
+      "Integrity": "5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ExportFile\\export1\\50381415-a4a4-4775-b27a-a7acd8916488 - Copy (3).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\50381415-a4a4-4775-b27a-a7acd8916488 - Copy.jpg",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "ExportFile/export1/50381415-a4a4-4775-b27a-a7acd8916488 - Copy#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "swo8619cks",
+      "Integrity": "5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ExportFile\\export1\\50381415-a4a4-4775-b27a-a7acd8916488 - Copy.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\50381415-a4a4-4775-b27a-a7acd8916488.jpg",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "ExportFile/export1/50381415-a4a4-4775-b27a-a7acd8916488#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "swo8619cks",
+      "Integrity": "5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ExportFile\\export1\\50381415-a4a4-4775-b27a-a7acd8916488.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\Alireza Ghorbani - Khiale Khosh (320) - Copy.mp3",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "ExportFile/export1/Alireza Ghorbani - Khiale Khosh (320) - Copy#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mwi0zvyqz7",
+      "Integrity": "SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ExportFile\\export1\\Alireza Ghorbani - Khiale Khosh (320) - Copy.mp3"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\Alireza Ghorbani - Khiale Khosh (320).mp3",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "ExportFile/export1/Alireza Ghorbani - Khiale Khosh (320)#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mwi0zvyqz7",
+      "Integrity": "SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ExportFile\\export1\\Alireza Ghorbani - Khiale Khosh (320).mp3"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\Alireza Ghorbani - Khiale Khosh (321) - Copy.mp3",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "ExportFile/export1/Alireza Ghorbani - Khiale Khosh (321) - Copy#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mwi0zvyqz7",
+      "Integrity": "SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ExportFile\\export1\\Alireza Ghorbani - Khiale Khosh (321) - Copy.mp3"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\Alireza Ghorbani - Khiale Khosh (322) - Copy.mp3",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "ExportFile/export1/Alireza Ghorbani - Khiale Khosh (322) - Copy#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mwi0zvyqz7",
+      "Integrity": "SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ExportFile\\export1\\Alireza Ghorbani - Khiale Khosh (322) - Copy.mp3"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\favicon.ico",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "61n19gt1b8",
+      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\Templates\\TableTemplate.html",
+      "SourceId": "BlazorAppHtmlToPdf",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\",
+      "BasePath": "_content/BlazorAppHtmlToPdf",
+      "RelativePath": "Templates/TableTemplate#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x9r36cy5s1",
+      "Integrity": "K328gIKjqcCHoQ5BMPENp+5D+anmVdtjDJx8dxqk61Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Templates\\TableTemplate.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "BlazorAppHtmlToPdf.bundle.scp.css",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorAppHtmlToPdf.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2857"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y5X4JBLlPSiyn7cq0Jqw9h+WDH835EcHaSswT00g2mA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 03:46:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y5X4JBLlPSiyn7cq0Jqw9h+WDH835EcHaSswT00g2mA="
+        }
+      ]
+    },
+    {
+      "Route": "BlazorAppHtmlToPdf.lsv526ycda.bundle.scp.css",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorAppHtmlToPdf.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2857"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y5X4JBLlPSiyn7cq0Jqw9h+WDH835EcHaSswT00g2mA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 03:46:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lsv526ycda"
+        },
+        {
+          "Name": "label",
+          "Value": "BlazorAppHtmlToPdf.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y5X4JBLlPSiyn7cq0Jqw9h+WDH835EcHaSswT00g2mA="
+        }
+      ]
+    },
+    {
+      "Route": "BlazorAppHtmlToPdf.lsv526ycda.styles.css",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorAppHtmlToPdf.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2857"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y5X4JBLlPSiyn7cq0Jqw9h+WDH835EcHaSswT00g2mA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 03:46:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lsv526ycda"
+        },
+        {
+          "Name": "label",
+          "Value": "BlazorAppHtmlToPdf.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y5X4JBLlPSiyn7cq0Jqw9h+WDH835EcHaSswT00g2mA="
+        }
+      ]
+    },
+    {
+      "Route": "BlazorAppHtmlToPdf.styles.css",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorAppHtmlToPdf.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2857"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y5X4JBLlPSiyn7cq0Jqw9h+WDH835EcHaSswT00g2mA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 03:46:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y5X4JBLlPSiyn7cq0Jqw9h+WDH835EcHaSswT00g2mA="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cmapd0fi15"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.0uw8dim9nl.eot",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0uw8dim9nl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.eot"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.10uzszoped.svg",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oUpLdS+SoLJFwf4bzA3iKD7TCm66oLkTpAQlVJ2s1wc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "10uzszoped"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oUpLdS+SoLJFwf4bzA3iKD7TCm66oLkTpAQlVJ2s1wc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.eot",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.h4d0pazwgy.woff",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h4d0pazwgy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.woff"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.ll5grcv8wv.ttf",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ll5grcv8wv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.otf",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.svg",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oUpLdS+SoLJFwf4bzA3iKD7TCm66oLkTpAQlVJ2s1wc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oUpLdS+SoLJFwf4bzA3iKD7TCm66oLkTpAQlVJ2s1wc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.ttf",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wk8x8xm0ah"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.woff",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/FONT-LICENSE",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+Q44zfEaCMmXduni5Td+IgCbk8sSUQwES2nWs+KKQz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+Q44zfEaCMmXduni5Td+IgCbk8sSUQwES2nWs+KKQz0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/FONT-LICENSE.z189sdz1gv",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+Q44zfEaCMmXduni5Td+IgCbk8sSUQwES2nWs+KKQz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z189sdz1gv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/FONT-LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+Q44zfEaCMmXduni5Td+IgCbk8sSUQwES2nWs+KKQz0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/ICON-LICENSE",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1073"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s/Is6Ey6jfNAEfXUIOyHrXXX+RcA8hzchYnuOIWUMl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s/Is6Ey6jfNAEfXUIOyHrXXX+RcA8hzchYnuOIWUMl4="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/ICON-LICENSE.3cg08az021",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1073"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s/Is6Ey6jfNAEfXUIOyHrXXX+RcA8hzchYnuOIWUMl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3cg08az021"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/ICON-LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s/Is6Ey6jfNAEfXUIOyHrXXX+RcA8hzchYnuOIWUMl4="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/README.md",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5ToOztcPXlExcj3+/PDkGs4F2+hgzAik0DU7AxPp2tc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5ToOztcPXlExcj3+/PDkGs4F2+hgzAik0DU7AxPp2tc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/README.prgg6f6j8q.md",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\open-iconic\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5ToOztcPXlExcj3+/PDkGs4F2+hgzAik0DU7AxPp2tc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "prgg6f6j8q"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/README.md"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5ToOztcPXlExcj3+/PDkGs4F2+hgzAik0DU7AxPp2tc="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2746"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PtJQgugrqrV/b3vt9HHMH7NwcUYIip7zUqQIVdIIyvE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PtJQgugrqrV/b3vt9HHMH7NwcUYIip7zUqQIVdIIyvE="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.egr5o4t57u.css",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2746"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PtJQgugrqrV/b3vt9HHMH7NwcUYIip7zUqQIVdIIyvE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "egr5o4t57u"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PtJQgugrqrV/b3vt9HHMH7NwcUYIip7zUqQIVdIIyvE="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/3_khoshehaie_kandom_78463 - Copy (2).1emih43q4r.mp3",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\3_khoshehaie_kandom_78463 - Copy (2).mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1430299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:38:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1emih43q4r"
+        },
+        {
+          "Name": "label",
+          "Value": "ExportFile/export1/3_khoshehaie_kandom_78463 - Copy (2).mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/3_khoshehaie_kandom_78463 - Copy (2).mp3",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\3_khoshehaie_kandom_78463 - Copy (2).mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1430299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:38:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/3_khoshehaie_kandom_78463 - Copy (3).1emih43q4r.mp3",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\3_khoshehaie_kandom_78463 - Copy (3).mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1430299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:38:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1emih43q4r"
+        },
+        {
+          "Name": "label",
+          "Value": "ExportFile/export1/3_khoshehaie_kandom_78463 - Copy (3).mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/3_khoshehaie_kandom_78463 - Copy (3).mp3",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\3_khoshehaie_kandom_78463 - Copy (3).mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1430299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:38:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/3_khoshehaie_kandom_78463 - Copy.1emih43q4r.mp3",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\3_khoshehaie_kandom_78463 - Copy.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1430299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:38:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1emih43q4r"
+        },
+        {
+          "Name": "label",
+          "Value": "ExportFile/export1/3_khoshehaie_kandom_78463 - Copy.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/3_khoshehaie_kandom_78463 - Copy.mp3",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\3_khoshehaie_kandom_78463 - Copy.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1430299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:38:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/3_khoshehaie_kandom_78463.1emih43q4r.mp3",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\3_khoshehaie_kandom_78463.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1430299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:38:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1emih43q4r"
+        },
+        {
+          "Name": "label",
+          "Value": "ExportFile/export1/3_khoshehaie_kandom_78463.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/3_khoshehaie_kandom_78463.mp3",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\3_khoshehaie_kandom_78463.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1430299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 10:38:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2TJ74CjFC3oTymQZVNm/A40TCzt0vHjVfrXb161EsYI="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/50381415-a4a4-4775-b27a-a7acd8916488 - Copy (2).jpg",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\50381415-a4a4-4775-b27a-a7acd8916488 - Copy (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195801"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 14:17:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/50381415-a4a4-4775-b27a-a7acd8916488 - Copy (2).swo8619cks.jpg",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\50381415-a4a4-4775-b27a-a7acd8916488 - Copy (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195801"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 14:17:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "swo8619cks"
+        },
+        {
+          "Name": "label",
+          "Value": "ExportFile/export1/50381415-a4a4-4775-b27a-a7acd8916488 - Copy (2).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/50381415-a4a4-4775-b27a-a7acd8916488 - Copy (3).jpg",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\50381415-a4a4-4775-b27a-a7acd8916488 - Copy (3).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195801"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 14:17:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/50381415-a4a4-4775-b27a-a7acd8916488 - Copy (3).swo8619cks.jpg",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\50381415-a4a4-4775-b27a-a7acd8916488 - Copy (3).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195801"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 14:17:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "swo8619cks"
+        },
+        {
+          "Name": "label",
+          "Value": "ExportFile/export1/50381415-a4a4-4775-b27a-a7acd8916488 - Copy (3).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/50381415-a4a4-4775-b27a-a7acd8916488 - Copy.jpg",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\50381415-a4a4-4775-b27a-a7acd8916488 - Copy.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195801"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 14:17:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/50381415-a4a4-4775-b27a-a7acd8916488 - Copy.swo8619cks.jpg",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\50381415-a4a4-4775-b27a-a7acd8916488 - Copy.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195801"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 14:17:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "swo8619cks"
+        },
+        {
+          "Name": "label",
+          "Value": "ExportFile/export1/50381415-a4a4-4775-b27a-a7acd8916488 - Copy.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/50381415-a4a4-4775-b27a-a7acd8916488.jpg",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\50381415-a4a4-4775-b27a-a7acd8916488.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195801"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 14:17:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/50381415-a4a4-4775-b27a-a7acd8916488.swo8619cks.jpg",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\50381415-a4a4-4775-b27a-a7acd8916488.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195801"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 14:17:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "swo8619cks"
+        },
+        {
+          "Name": "label",
+          "Value": "ExportFile/export1/50381415-a4a4-4775-b27a-a7acd8916488.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5NVOIbDapn6XXYzyvuOU6JkVotV9DYIEfnP1YBszUyI="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/Alireza Ghorbani - Khiale Khosh (320) - Copy.mp3",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\Alireza Ghorbani - Khiale Khosh (320) - Copy.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9725952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 05:20:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/Alireza Ghorbani - Khiale Khosh (320) - Copy.mwi0zvyqz7.mp3",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\Alireza Ghorbani - Khiale Khosh (320) - Copy.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9725952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 05:20:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mwi0zvyqz7"
+        },
+        {
+          "Name": "label",
+          "Value": "ExportFile/export1/Alireza Ghorbani - Khiale Khosh (320) - Copy.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/Alireza Ghorbani - Khiale Khosh (320).mp3",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\Alireza Ghorbani - Khiale Khosh (320).mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9725952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 05:20:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/Alireza Ghorbani - Khiale Khosh (320).mwi0zvyqz7.mp3",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\Alireza Ghorbani - Khiale Khosh (320).mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9725952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 05:20:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mwi0zvyqz7"
+        },
+        {
+          "Name": "label",
+          "Value": "ExportFile/export1/Alireza Ghorbani - Khiale Khosh (320).mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/Alireza Ghorbani - Khiale Khosh (321) - Copy.mp3",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\Alireza Ghorbani - Khiale Khosh (321) - Copy.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9725952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 05:20:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/Alireza Ghorbani - Khiale Khosh (321) - Copy.mwi0zvyqz7.mp3",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\Alireza Ghorbani - Khiale Khosh (321) - Copy.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9725952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 05:20:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mwi0zvyqz7"
+        },
+        {
+          "Name": "label",
+          "Value": "ExportFile/export1/Alireza Ghorbani - Khiale Khosh (321) - Copy.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/Alireza Ghorbani - Khiale Khosh (322) - Copy.mp3",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\Alireza Ghorbani - Khiale Khosh (322) - Copy.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9725952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 05:20:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks="
+        }
+      ]
+    },
+    {
+      "Route": "ExportFile/export1/Alireza Ghorbani - Khiale Khosh (322) - Copy.mwi0zvyqz7.mp3",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\ExportFile\\export1\\Alireza Ghorbani - Khiale Khosh (322) - Copy.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9725952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 05:20:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mwi0zvyqz7"
+        },
+        {
+          "Name": "label",
+          "Value": "ExportFile/export1/Alireza Ghorbani - Khiale Khosh (322) - Copy.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiGDnHhcLPvOCtKS4UXi8YcVAfPPd04ODyHFb+Ucvks="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.61n19gt1b8.ico",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61n19gt1b8"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "Templates/TableTemplate.html",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\Templates\\TableTemplate.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K328gIKjqcCHoQ5BMPENp+5D+anmVdtjDJx8dxqk61Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K328gIKjqcCHoQ5BMPENp+5D+anmVdtjDJx8dxqk61Y="
+        }
+      ]
+    },
+    {
+      "Route": "Templates/TableTemplate.x9r36cy5s1.html",
+      "AssetFile": "C:\\Users\\moghavemi.e\\Desktop\\ConvertHtmlToPdf-master\\ConvertHtmlToPdf-master\\BlazorAppHtmlToPdf\\wwwroot\\Templates\\TableTemplate.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K328gIKjqcCHoQ5BMPENp+5D+anmVdtjDJx8dxqk61Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:55:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x9r36cy5s1"
+        },
+        {
+          "Name": "label",
+          "Value": "Templates/TableTemplate.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K328gIKjqcCHoQ5BMPENp+5D+anmVdtjDJx8dxqk61Y="
+        }
+      ]
+    }
+  ]
+}

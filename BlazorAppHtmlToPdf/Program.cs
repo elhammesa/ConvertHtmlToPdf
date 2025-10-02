@@ -12,6 +12,7 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddScoped<IPdfService, PdfService>();
 builder.Services.AddScoped<IExcelService, ExcelService>();
+builder.Services.AddScoped<IZipFile, ZipFile>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
